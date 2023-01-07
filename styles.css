@@ -69,3 +69,27 @@ nav {
     background-color: #22bb5f;
     color: #ffffff;
 }
+
+/* banner principal */
+.main-bainner {
+    background-image: url("./img/mainbanner.png");
+    background-size: cover;
+    background-position: center;
+    padding: 10rem 0;
+}
+
+.main-bainner h1,
+.main-bainner p {
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: #000000 3px 2px 3px;
+}
+
+.main-bainner h1 {
+    font-size: 54px;
+}
+
+.main-bainner p {
+    font-size: 32px;
+}
