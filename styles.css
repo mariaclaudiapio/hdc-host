@@ -305,3 +305,81 @@ footer {
     font-weight: bold;
     margin: 20px 0 100px;
 }
+
+/* responsividade */
+/* Pequenos laptops */
+@media (max-width: 1100px) {
+    .plans-container {
+        width: 95%;
+    }
+
+    .plan {
+        margin: 0 5px;
+    }
+}
+
+/* tablets */
+@media (max-width: 900px) {
+    .main-bainner p {
+        padding: 1rem 6rem;
+    }
+
+    .searchdomain-container h2 {
+        padding: 0 4rem 1rem;
+    }
+}
+
+/* smartphones */
+@media (max-width: 576px) {
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    .navbar-items li {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .main-bainner p {
+        padding: 0 2rem;
+    }
+
+    .services-container ul {
+        flex-direction: column;
+    }
+
+    .plans-container {
+        flex-direction: column;
+        width: 100%;
+        padding: 0 2rem;
+    }
+
+    .plan {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .searchdomain-container h2 {
+        font-size: 28px;
+    }
+
+    .searchdomain-container p {
+        font-size: 22px;
+    }
+
+    .searchdomain-container input[type="text"] {
+        width: 70%;
+    }
+
+    .contact-container {
+        padding: 3rem 2rem;
+    }
+
+    .contact-container input,
+    .contact-container textarea {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
